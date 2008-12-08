@@ -3,7 +3,7 @@
 import sys, gobject, gnomekeyring
 from optparse import OptionParser
 
-gobject.set_application_name("offlineimap")
+gobject.set_application_name("keyring-utils")
 
 parser = OptionParser(add_help_option=False)
 parser.add_option("-u", "--user", dest="user",

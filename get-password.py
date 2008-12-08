@@ -12,7 +12,7 @@ parser.add_option("-?", "--help", action="help", help="show this help message an
 
 (options, args) = parser.parse_args()
 
-gobject.set_application_name("offlineimap")
+gobject.set_application_name("keyring-utils")
 
 keys = gnomekeyring.find_network_password_sync(user=options.username,
                                               server=options.hostname,
